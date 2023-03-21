@@ -32,17 +32,20 @@ The modules in the hadoop are
   
 #### HDFS ####
 Similar to data residing in a local file system of a computer, in hadoop data resides in a distributed file system called Hadoop Distributed File System.
-This takes care of the storage part of hadoop applications.
-HDFS created multiple replica of data blocks, distribute them on compute nodes in a cluster.
-this distribution enables reliable and rapid computations.
+ - This takes care of the storage part of hadoop applications.
+ - HDFS created multiple replica of data blocks, distribute them on compute nodes in a cluster.
+ - This distribution enables reliable and rapid computations.
 
 #### MAP REDUCE ####
 Map reduce is a massive parallel processing technique used for processing data distributed on a cluster.
 Hadoop deals with data in form of key_value pairs.
-map reduce divides the task into two phases, map and reduce.
-mapper formats the data into key-value pairs and inputs the key-value pairs to an intermediate key-value pairs.
-Maps are the individual tasks that transform input records into intermediate records.
-The process of exchanging the intermediate records from map to where they are required by reducers is known as shuffling.
+map reduce divides the task into two phases, 
+ - map
+  mapper formats the data into key-value pairs and inputs the key-value pairs to an intermediate key-value pairs.
+ Maps are the individual tasks that transform input records into intermediate records.
+
+ - reduce
+The process of transferring the intermediate records from map to where they are required by reducers is known as shuffling.
 Reducers sort the itermediate records.
 All of the values with same key are gathered in a single reducer together and the output is stored locally.
 
@@ -50,11 +53,11 @@ All of the values with same key are gathered in a single reducer together and th
 YARN - Yet Another Resource Negotiator.
 It is the resource management layer of hadoop.
 It provides the framework to schedule jobs and manage resources across the clusters that holds data.
-Resouce manager - to manage the use of resources across the clusters
-Node managers - for launching and monitoing computer containers on machines in the cluster.
+ - Resouce manager - to manage the use of resources across the clusters
+ - Node managers - for launching and monitoing computer containers on machines in the cluster.
 
 #### HIVE ####
-Hive is an open source data warehouse system built on hadoop for  querying and analysing large data sets stored in hadoop.
-Hive uses a language called HQL (Hive Query Language) which is similar to SQL queries, which gets internally converted into Mapreduce jobs.
-Hive organises data into tables.The Hive generally runs on your workstation and converts your SQL query into a series of jobs for execution on a Hadoop cluster. 
+ - Hive is an open source data warehouse system built on hadoop for  querying and analysing large data sets stored in hadoop.
+ - Hive uses a language called HQL (Hive Query Language) which is similar to SQL queries, which gets internally converted into Mapreduce jobs.
+ - Hive organises data into tables.The Hive generally runs on your workstation and converts your SQL query into a series of jobs for execution on a Hadoop cluster. 
 
