@@ -13,11 +13,6 @@ Characteristics which need to be considered while dealing with Big data solution
  - Velocity – speed of generation of data.(i.e) speed in transaction and speed in processing
  - Variety – different formats of data (structured / semi-structured/unstructured) from various sources 
 
-#### HDFS ####
-Hadoop distributed file system HDFS.
-Hadoop consists of HDFS and Map Reduce.
-Hadoop framework consists of HDFS, MR, Hive.
-
 ###### METADATA ######
 Metadata is data about data. It provides additional information about a specific set of data.
 
