@@ -18,5 +18,19 @@ Hadoop distributed file system HDFS.
 Hadoop consists of HDFS and Map Reduce.
 Hadoop framework consists of HDFS, MR, Hive.
 
-#### METADAtA ####
+#### METADATA ####
 Metadata is data about data. It provides additional information about a specific set of data.
+
+#### HADOOP ####
+Hadoop is a distributed framework that makes it easier to process large data sets that reside in cluster of computers.
+Hadoop provides a method to access the data that is distributed among multiple cluster, process the data and manage the resources.
+Hadoop follows master slave architecture.
+The modules in the hadoop are
+  - HDFS Hadoop Distributed File System 
+  - Yarn
+  - Map Reduce
+  
+#### HDFS ####
+Similar to data residing in a local file system of a computer, in hadoop data resides in a distributed file system called Hadoop Distributed File System.
+This takes care of the storage part of hadoop applications.
+
