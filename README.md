@@ -38,9 +38,8 @@ this distribution enables reliable and rapid computations.
 
 #### MAP REDUCE ####
 Map reduce is a massive parallel processing technique used for processing data distributed on a cluster.
-Parallel processing is that a file is broken into chunks and processed in parallel.
 Hadoop deals with data in form of key_value pairs.
-map reduce dvides the task into two phases, map and reduce.
+map reduce divides the task into two phases, map and reduce.
 mapper formats the data into key-value pairs and inputs the key-value pairs to an intermediate key-value pairs.
 Maps are the individual tasks that transform input records into intermediate records.
 The process of exchanging the intermediate records from map to where they are required by reducers is known as shuffling.
