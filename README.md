@@ -41,10 +41,10 @@ Map reduce is a massive parallel processing technique used for processing data d
 Hadoop deals with data in form of key_value pairs.
 map reduce divides the task into two phases, 
  - map
+     - mapper formats the data into key-value pairs and inputs the key-value pairs to an intermediate key-value pairs.
+       Maps are the individual tasks that transform input records into intermediate records.
  - reduce     
-mapper formats the data into key-value pairs and inputs the key-value pairs to an intermediate key-value pairs.
-Maps are the individual tasks that transform input records into intermediate records.
-The process of transferring the intermediate records from map to where they are required by reducers is known as shuffling.
+     - The process of transferring the intermediate records from map to where they are required by reducers is known as shuffling.
 Reducers sort the itermediate records.
 All of the values with same key are gathered in a single reducer together and the output is stored locally.
 
