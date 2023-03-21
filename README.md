@@ -14,6 +14,9 @@ Characteristics which need to be considered while dealing with Big data solution
  - Variety – different formats of data (structured / semi-structured/unstructured) from various sources 
 
 #### HDFS ####
-Hadoop distributed file system HDFS
-Hadoop consists of HDFS and MR (map reduce)
-Hadoop framework consists of HDFS, MR, Hive
+Hadoop distributed file system HDFS.
+Hadoop consists of HDFS and Map Reduce.
+Hadoop framework consists of HDFS, MR, Hive.
+
+#### METADAtA ####
+Metadata is data about data. It provides additional information about a specific set of data.
